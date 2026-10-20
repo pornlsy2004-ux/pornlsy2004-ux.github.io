@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!-- 吕正旗策划制作 grok负责实现 -->
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>吕正旗 Lv Zhengqi · 作品集 Portfolio</title>
+  <meta name="description" content="吕正旗（Lv Zhengqi）的个人开发者作品集 · Student developer portfolio">
+  <meta name="color-scheme" content="light dark">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="logo" href="#top"><span>~/</span>lvzhengqi</a>
+      <nav>
+        <a href="#about">关于</a>
+        <a href="#projects">项目</a>
+        <a href="#contact">联系</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero container">
+      <p class="eyebrow">Hi, I'm</p>
+      <h1>吕正旗 <span class="en">Lv Zhengqi</span></h1>
+      <p class="lead">学生开发者，对计算机科学充满兴趣。<br>
+        <span class="sub">Student developer interested in computer science.</span></p>
+      <div class="actions">
+        <a class="btn primary" href="#projects">查看项目 · Projects</a>
+        <a class="btn" href="https://github.com/pornlsy2004-ux" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </section>
+
+    <section id="about" class="container section">
+      <h2>关于我 <span class="en">About</span></h2>
+      <p>你好！我是吕正旗，一名正在学习编程的学生。我喜欢动手做小项目——从浏览器小游戏到命令行工具——并把它们开源在 GitHub 上。</p>
+      <p class="sub">Hi! I'm Lv Zhengqi, a student learning to code. I enjoy building small projects — from browser games to command-line tools — and sharing them as open source on GitHub.</p>
+    </section>
+
+    <section id="projects" class="container section">
+      <h2>项目 <span class="en">Projects</span></h2>
+      <div class="grid">
+        <article class="card">
+          <div class="card-head">
+            <h3>snake-game</h3>
+            <span class="tag js">JavaScript</span>
+          </div>
+          <p>贪吃蛇小游戏：用纯 JavaScript + HTML5 Canvas 实现，无框架、无构建，支持键盘与手机滑动操作，最高分保存在浏览器中。</p>
+          <p class="sub">A classic browser Snake game built with plain JavaScript and HTML5 Canvas — no frameworks, no build step.</p>
+          <div class="links">
+            <a href="https://pornlsy2004-ux.github.io/snake-game/" target="_blank" rel="noopener">在线试玩 Live demo →</a>
+            <a href="https://github.com/pornlsy2004-ux/snake-game" target="_blank" rel="noopener">源码 Code</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-head">
+            <h3>diffquill</h3>
+            <span class="tag py">Python</span>
+          </div>
+          <p>用 LLM 从暂存区 diff 生成 Conventional Commit 提交信息，并能扫描仓库起草 README 的开源命令行工具。支持 OpenAI 兼容接口、Gemini 和本地 Ollama。</p>
+          <p class="sub">LLM CLI for Conventional Commit messages and README drafts (OpenAI-compatible, Gemini, Ollama).</p>
+          <div class="links">
+            <a href="https://github.com/pornlsy2004-ux/diffquill" target="_blank" rel="noopener">源码 Code →</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="container section">
+      <h2>联系 <span class="en">Links</span></h2>
+      <p>欢迎在 GitHub 上关注我、查看代码或提 Issue。</p>
+      <p class="sub">Find me and my code on GitHub.</p>
+      <a class="btn primary" href="https://github.com/pornlsy2004-ux" target="_blank" rel="noopener">github.com/pornlsy2004-ux</a>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <p>© 2026 吕正旗 Lv Zhengqi</p>
+  </footer>
+</body>
+</html>
